@@ -1,8 +1,8 @@
 <div class="github-component height-full text-left {% if site.style == 'dark' %}box-shadow{% else %}border border-gray-light{% endif %} bg-white rounded-1 p-3">
   <div class="d-flex flex-justify-between flex-items-start mb-1">
     <h1 class="f4 lh-condensed mb-1">
-      <a href="{{ repository.html_url }}">
-        {% octicon repo height:20 class:"mr-1 v-align-middle" fill:"#586069" aria-label:repo %}
+      <a href="{{ repository.html_url }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+        {% octicon repo height:20 class:"mr-1 v-align-middle" fill:"#ffffff" aria-label:repo %}
         <span class="text-normal">{{ repository.owner.login }} /</span>
         {{ repository.name }}
       </a>
