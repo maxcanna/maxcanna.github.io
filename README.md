@@ -1,3 +1,3 @@
-# [massi.ws](https://massi.dev)
+# [massi.dev](https://massi.dev)
 
 This is me here on GitHub
